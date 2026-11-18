@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080d18;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #151e30;
+  width: 90%;
+  max-width: 550px;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px #0008;
+}
+
+h1 {
+  color: #ff4655;
+  text-align: center;
+}
+
+.container > p {
+  text-align: center;
+  color: #aab4c5;
+}
+
+#password {
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  border: 1px solid #46536a;
+  border-radius: 8px;
+  background: #0a1220;
+  color: white;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  color: #c5ccda;
+}
+
+.pass {
+  color: #35d39a;
+}
+
+.fail {
+  color: #ff6875;
+}
+
+h2 {
+  color: #ffb84d;
+  margin-top: 25px;
+}
+
+li {
+  margin: 8px 0;
+  color: #c5ccda;
+}
